@@ -2,7 +2,7 @@
 
 class triple_a
 {
-	const hogehuga_hugahuga = 111;
+    const hogehuga_hugahuga = 111;
 
     public $single_a = 'a';
 
