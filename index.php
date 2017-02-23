@@ -18,11 +18,11 @@ class triple_b
 
     public function double_a()
     {
-    	$arr = [
-    		'aa' => 1,
-    		'ccc'    =>     111,
+        $arr = [
+            'aa' => 1,
+            'ccc'    =>     111,
 
-    	];
+        ];
 
 
         return 'aa';
