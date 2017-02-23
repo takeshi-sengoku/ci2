@@ -1,7 +1,7 @@
 <?php
 
 class triple_a {
-	var single_a = 'a';
+	var $single_a = 'a';
 
 	function double_a () {
 		return 'aa';
@@ -9,7 +9,7 @@ class triple_a {
 }
 
 class triple_b {
-	var single_a = 'a';
+	var $single_a = 'a';
 
 	function double_a () {
 		return 'aa';
