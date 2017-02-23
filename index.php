@@ -1,21 +1,25 @@
 <?php
 
-class triple_a {
-	var $single_a = 'a';
+class triple_a
+{
+    public $single_a = 'a';
 
-	function double_a () {
-		return 'aa';
-	}
+    public function double_a()
+    {
+        return 'aa';
+    }
 }
 
-class triple_b {
-	var $single_a = 'a';
+class triple_b
+{
+    public $single_a = 'a';
 
-	function double_a () {
-		return 'aa';
-	}
+    public function double_a()
+    {
+        return 'aa';
+    }
 }
 
 triple_a::double_a();
-$b = new triple_b;
+$b = new triple_b();
 $b->double_a();
